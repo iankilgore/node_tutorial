@@ -1,6 +1,6 @@
 const crypto = require('crypto'),
   fs = require("fs"),
-  http = require("http");
+  https = require("https");
 
 var privateKey = fs.readFileSync('privatekey.pem').toString();
 var certificate = fs.readFileSync('certificate.pem').toString();
